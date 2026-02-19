@@ -70,7 +70,6 @@ void Draw(){
     cout << "Score: " << score << endl;
 }
 
-// Sterowanie
 void Input(){
     if(_kbhit()){
         switch(_getch()){
@@ -155,3 +154,4 @@ int main()
     cout << "Final score: " << score;
     return 0;
 }
+
